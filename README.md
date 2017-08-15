@@ -1,6 +1,6 @@
 # Watcher of Friends Online
 
-[TODO. There will be project description]
+Show online friends in [Vkontakte](https://vk.com).
 
 # How to Install
 
@@ -11,6 +11,27 @@ pip install -r requirements.txt # alternatively try pip3
 ```
 
 Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
+
+
+# How to use
+
+```bash
+python3 vk_friends_online.py
+```
+<pre>
+    <code>
+    Login or e-mail: username@hostname
+    Password:
+    
+    Online friends:
+
+1. Bob Bob
+------------------------
+2. Petr Polk
+------------------------
+    
+    </code>
+</pre>
 
 # Project Goals
 
